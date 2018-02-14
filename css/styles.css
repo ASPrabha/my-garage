@@ -1,0 +1,388 @@
+@import "https://fonts.googleapis.com/css?family=Righteous";
+
+/*
+  Styling the body content
+*/
+body{
+ -webkit-font-smoothing: antialiased;
+ text-rendering: optimizelegibility;
+ background-color: #fff;
+ font-family: 'Righteous', cursive;
+ color: #000;
+}
+
+/*
+  Styling Navigation Bar
+*/
+.navbar{
+  background-color: #ccc;
+}
+
+#navigations{
+  margin-top: 15px;
+}
+.navbar-nav li a{
+  color: #444;
+}
+.navbar-brand, .navbar-brand:hover{
+  padding: 0;
+  color: #333;
+}
+
+.navbar-brand img{
+  padding: 10px;
+}
+.navbar-toggle{
+  background-color: #333;
+}
+
+.navbar-toggle:hover{
+  background-color: #555;
+}
+
+.navbar-toggle:focus{
+  background-color: #555;
+}
+/*
+  Hero Container
+*/
+#hero1{
+  width:100%;
+  background-image: url("../images/garage-hero-medium.jpg");
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:center center;
+  height:650px;
+  margin-top: 48px;
+}
+
+#hero1:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+}
+
+#hero1 h1{
+  text-indent: -9999px;
+}
+#hero2{
+  margin-top: 100px;
+}
+.hero-text {
+  color: #FFF; 
+  text-align: center;
+}
+.hero-text h2{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.hero-text small{
+  color: #FFF; 
+}
+.hero-text .nav-tabs li{
+  padding: 0;
+}
+#hero2 button{
+  margin: auto;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  box-shadow: none;
+}
+.tab-content .tab-pane .input-group{
+  padding: 10px;
+}
+.tab-content .tab-pane .dropdown li a{
+  padding: 0;
+}
+.nav-tabs li a{
+  color: #F44336;
+}
+.myButton{
+  background-color: #F44336;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
+
+#car input, #bike input{
+  border: none;
+}
+
+/*
+  Styling About Us
+*/
+#aboutUs{
+  margin: 0;
+  padding-top: 70px;
+  color: #000;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+.about-content{
+  font-family: sans-serif;
+}
+
+/*
+  Styling Why Us Section
+*/
+#whyUs, #serviceDetails, #testimonials{
+  width:100%;
+  background-image: url("../images/garage-hero-medium.jpg");
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:center center;
+  height: auto;
+  margin-top: auto;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+#whyUs:before{
+  content: '';
+  position:absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(114,150,212,0.2);
+}
+
+#whyUs .container .row{
+  margin-top: 60px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#whyUs .container h2{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Righteous', cursive;
+}
+
+.advantage .thumbnail{
+  margin-top: 20px;
+  text-align: center;
+  background: rgba(89,255,217,0);
+  border: none;
+  color: #fff;
+}
+.advantage .thumbnail .caption h3{
+  font-size: 25px;
+  font-family: Righteous, cursive;
+}
+.advantage .thumbnail .caption{
+  color: #fff;
+  padding: 0;
+  font-size: 20px;
+}
+.advantage span{
+  font-size: 70px;
+}
+
+/*
+  Styling Service Details
+*/
+#serviceDetails:before, #testimonials:before{
+  content: '';
+  position:absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(248,93,1,0.8);
+}
+
+#serviceDetails{
+  text-align: center;
+  padding: 20px 10px 10px;
+}
+#serviceDetails .block-text{
+  font-size: 50px;
+  font-weight: 500;
+   color: #fff;
+}
+
+#serviceDetails .sub-text{
+  font-size: 35px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* 
+   Carousel- Testimnials
+*/
+#testimonials{
+  padding-top: 50px;
+}
+
+#myCarousel .item{
+  height: 400px;
+}
+
+.carousel-caption{
+  font-size: 24px;
+}
+
+.carousel-caption h4{
+  font-size: 32px;
+}
+
+#slide1{
+  background: url("../images/carousel-image-01.jpg") top center no-repeat;
+}
+#slide2{
+  background: url("../images/carousel-image-02-medium.jpg") top center no-repeat
+}
+#slide3{
+  background: url("../images/carousel-image-03-medium.jpg") top center no-repeat
+}
+
+/*
+  Styling Contact Us
+*/
+#contactUs{
+  color: #222;
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
+
+#contactUs .row{
+  margin-top: 20px;
+}
+#contactUs form{
+  padding: 10px;
+}
+
+#contactUs form label{
+  font-size: 15px;
+}
+#contactUs h2{
+  text-align: center;
+}
+
+#contactUs a{
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+
+/*
+  Return to top navigation
+*/
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 35px;
+  display: none;
+  transition: all 0.3s ease;
+  z-index: 60;
+}
+#return-to-top svg {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover svg{
+  color: #fff;
+  top: 5px;
+}
+
+/*
+  Styling Footer
+*/
+footer{
+  background: #333;
+  color: #eee;
+  font-size: 13px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+footer .unstyled{
+  list-style: none;
+  padding: 0; 
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item{
+   height: 310px;
+   }
+
+   .carousel-caption{
+      font-size: 16px;
+   }
+
+   .carousel-caption h4{
+      font-size: 22px;
+   }
+   .form-horizontal .control-label {
+    text-align: left;
+   }
+
+   #slide1{
+      background: url("../images/carousel-image-01-small.jpg") top center no-repeat;
+   }
+   #slide2{
+      background: url("../images/carousel-image-02-small.jpg") top center no-repeat;
+   }
+   #slide3{
+      background: url("../images/carousel-image-03-small.jpg") top center no-repeat;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   #myCarousel .item{
+   height: 400px;
+   }
+
+  #slide1{
+   background: url("../images/carousel-image-01.jpg") top center no-repeat;
+   }
+   #slide2{
+      background: url("../images/carousel-image-02.jpg") top center no-repeat;
+   }
+   #slide3{
+      background: url("../images/carousel-image-03.jpg") top center no-repeat;
+   }
+}
+
+/* Tablets */
+@media (min-height: 1024px){
+#hero1{
+  height:1000px;
+}
+}

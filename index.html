@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+	<title>Nuts and Bolts</title>
+	<meta name="description" content="">
+	<meta charset="utf-8">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/styles.css" rel="stylesheet">
+
+	<!-- Fav Icon for the Title bar -->
+	<link rel="shortcut icon" href="images/logo-navbar-1.png" type="image/png">
+
+
+</head>
+<body>
+	<header class="container" id="header">
+		<nav class="navbar navbar-fixed-top" >
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="#"><img src="images/logo-navbar-1.png" class="img-responsive" alt="my garage">&nbsp; Nuts &amp; Bolts</a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav pull-right" id="navigations">
+						<li><a href="#whyUs">Why US?</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+						<li id="about-scroll"><a href="#aboutUs">About Us</a></li>
+						<li><a href="#contactUs">Contact US</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign Up/In <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><i class="fab fa-google-plus-g"></i> Sign up using Google</a>
+								</li>
+
+								<li>
+									<a href="#"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;Sign Up using Facebook</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a>
+								</li>
+							</ul>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main id="main">
+		<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up fa-lg"></i></a>
+		<!-- Hero banner container -->
+		<section id="hero1">
+			<h1>Nuts &amp; Bolts - The Garage Store</h1>
+			<div class="container" id="hero2">
+				<div class="row">
+					<section class="col-sm-6 hero-text">
+						<div class="hero-text">
+							<h2>Car &amp; Bike Care <br> Made Easy<br/>
+								<small class="row">
+									<span class="col-sm-4">
+								<span class="glyphicon glyphicon-home"></span> ONE STOP SHOP 
+								</span>
+								<span class="col-sm-4">
+								<span class="glyphicon glyphicon-wrench"></span> DOORSTEP SERVICE 
+								</span>
+								<span class="col-sm-4">
+								<span class="glyphicon glyphicon-briefcase"></span> INSTANT COST ESTIMATE
+								</span>
+								</small>
+							</h2>
+							<br>
+
+							<button class="btn btn-outline-danger visible-sm myButton" type="button">
+								Book Now <span class="glyphicon glyphicon-fire"></span>
+							</button>
+						</div>
+					</section>
+
+					<section class="col-sm-6 hero-text hidden-xs hidden-sm">
+						<div class="tabbable panel ">
+							<ul class="nav nav-tabs row">
+								<li class="active col-sm-6"><a href="#car" data-toggle="tab">Car</a></li>
+								<li class="col-sm-6"><a href="#bike" data-toggle="tab">Bike</a></li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="car">
+									<div class="input-group input-group-lg ">
+										<input type="text" class="form-control" placeholder="Brand">
+										<div class="input-group-btn dropdown">
+											<button class="btn btn-default dropdown-toggle myButton" data-toggle="dropdown" type="button"><strong class="caret"></strong></button>
+											<ul class="dropdown-menu pull-right">
+												<li class="dropdown-item"><a href="">Honda</a></li>
+												<li class="dropdown-item"><a href="">Mahindra</a></li>
+												<li class="dropdown-item"><a href="">Suzuki</a></li>
+												<li class="dropdown-item"><a href="">Tata</a></li>
+												<li class="dropdown-item"><a href="">Toyota</a></li>
+												<li class="dropdown-item"><a href="">Hyundai</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="input-group input-group-lg ">
+										<input type="text" class="form-control" placeholder="Model">
+										<div class="input-group-btn">
+											<button class="btn btn-default myButton" type="submit">
+												<strong class="caret"></strong>
+											</button>
+										</div>
+									</div>
+									<button type="button" class="btn btn-outline-danger myButton">Get a Quote <span class="glyphicon glyphicon-fire"></span></button>
+								</div>
+								<div class="tab-pane" id="bike">
+									<div class="input-group input-group-lg">
+										<input type="text" class="form-control" placeholder="Brand">
+										<div class="input-group-btn dropdown">
+											<button class="btn btn-default dropdown-toggle myButton" data-toggle="dropdown" type="button"><strong class="caret"></strong></button>
+											<ul class="dropdown-menu pull-right">
+												<li class="dropdown-item"><a href="">Honda</a></li>
+												<li class="dropdown-item"><a href="">Mahindra</a></li>
+												<li class="dropdown-item"><a href="">Suzuki</a></li>
+												<li class="dropdown-item"><a href="">Hero</a></li>
+												<li class="dropdown-item"><a href="">Bajaj</a></li>
+												<li class="dropdown-item"><a href="">Yamaha</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="input-group input-group-lg">
+										<input type="text" class="form-control" placeholder="Model">
+										<div class="input-group-btn">
+											<button class="btn btn-default myButton" type="submit">
+												<strong class="caret"></strong>
+											</button>
+										</div>
+									</div>
+									<button type="button" class="btn btn-outline-danger myButton">Get a Quote <span class="glyphicon glyphicon-fire"></span></button>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+		<!-- end of Hero banner section -->
+
+		<!-- About Us Section -->
+		<section id="aboutUs" class="jumbotron">
+			<h2 class="about-head">ABOUT US</h2>
+			<p class="about-content">Nuts &amp; Bolts is India's first standardized network of workshops to provide car services. We provide affordable, transparent and convenient on-demand car services at the comfort of your home or your office. With expert mechanics, state-of-the-art machinery, top quality spares, standardized processes & pricing, Nuts &amp; Bolts provides a uniform service experience to all its customers, across its workshops. Everything under one-roof : servicing, repairs, inspections, denting/painting, roadside assistance and car care. <br/> <br>Nuts &amp; Bolts provides best online car service in Bangalore making car maintenance easy, affordable and completely transparent. We also provide you with the best car service deals. Full car service is faciliated at one of the Nuts &amp; Bolts car service centre. So book car service now!</p>
+		</section>
+
+		<!-- Begin Why Nuts and Bolts -->
+		<section id="whyUs">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2>NUTS &amp; BOLTS ADVANTAGE</h2>
+					</div>
+				</div>
+				<div class="row">
+					<article class="col-sm-3 advantage">
+						<div class="thumbnail">
+							<span class="glyphicon glyphicon-fire"></span>
+							<div class="caption">
+								<h3>WE MAKE IT EASY</h3>
+								<p>Get a quote and book a service online 24/7. Our mechanics will come to your home or office, even on evenings and weekends.</p>
+							</div>
+						</div> 
+					</article>
+					<article class="col-sm-3 advantage">
+						<div class="thumbnail">
+							<span class="glyphicon glyphicon-tags"></span>
+							<div class="caption">
+								<h3>FAIR AND TRANSPARENT PRICING</h3>
+								<p>We offer fair and transparent pricing and savings up to 40% compared to other workshops. Book with confidence.</p>
+							</div>
+						</div> 
+					</article>
+					<article class="col-sm-3 advantage">
+						<div class="thumbnail">
+							<span><i class="far fa-smile"></i></span>
+							<div class="caption">
+								<h3>HAPPINESS GUARANTEED</h3>
+								<p>We only work with highly rated mechanics. All services are backed by our 2-month / 2,000-km warranty.</p>
+							</div>
+						</div> 
+					</article>
+					<article class="col-sm-3 advantage">
+						<div class="thumbnail">
+							<span class="glyphicon glyphicon-credit-card"></span>
+							<div class="caption">
+								<h3>MULTIPLE PAYMENT OPTIONS</h3>
+								<p>We offer choice b/w Online, Card or Cash payment. Mode of payment is never a problem.</p>
+							</div>
+						</div> 
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- Service Details section begins -->
+
+		<section id="serviceDetails">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="block-text">4000 +</p>
+						<p class="sub-text">Vehicles Serviced</p>
+					</div>
+					<div class="col-sm-6">
+						<p class="block-text">30 +</p>
+						<p class="sub-text">Workshops</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Carousel Section begins -->
+		<section id="testimonials">
+			<div class="carousel slide" id="myCarousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<blockquote>"Great service, great model, fast turnaround time."</blockquote>
+							<h4>Nakul</h4>
+						</div>
+					</div>
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<blockquote>"Workshop at my doorstep; Amazing experience. Highly Recommended"</blockquote>
+							<h4>Prem</h4>
+						</div>
+					</div>
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<blockquote>"Nuts &amp; Bolts has been extremely helpful with guiding me with the Insurance requirements and there was a great level of detail in how they went about their work!"</blockquote>
+							<h4>Verma</h4>
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls for the slides -->
+				<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+				<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+			</div>
+		</section>
+
+		<section class="jumbotron" id="contactUs">
+			<div class="container">
+				<h2>HOW CAN WE HELP</h2>
+				<div class="row">
+					<div class="col-sm-6">
+						<form action="#" class="form-horizontal">
+							<div class="form-group">
+								<label for="name" class="col-sm-3 control-label">Name</label>
+								<div class="col-sm-9">
+									<input type="text" id="name" class="form-control" required/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="mailId" class="col-sm-3 control-label">Mail Id</label>
+								<div class="col-sm-9">
+									<input type="email" id="mailId" class="form-control" required/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="mailId" class="col-sm-3 control-label">Ph. Number</label>
+								<div class="col-sm-9">
+									<input type="tel" id="phone-number" class="form-control" name="phone-number" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="comment" class="col-sm-3 control-label">Comments</label>
+								<div class="col-sm-9">
+									<textarea id="comment" class="form-control" rows="3" required></textarea><br/>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-9 col-sm-9 pull-right">
+									<button class="btn btn-danger myButton" type="submit">Send <span class="glyphicon glyphicon-send"></span></button>
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<div class="col-sm-6">
+						<p>Our team is availaible 7 days a week, from 9:30AM to 8:30PM. <br><span>+91-9555-95-0000 | info@CarCrew.in</span></p>
+						<h3>REGISTERED OFFICE</h3>
+						<p>CarCrew (HQ) St Theresa Rd,<br> Mahadevpura Bangalore,<br> Karnataka - 560037</p>
+						<a href="#" class="btn btn-outline-danger myButton" >
+							FAQ <span class="glyphicon glyphicon-bookmark"></span>
+						</a>
+						<a class="btn btn-outline-danger myButton">
+							Book Now <span class="glyphicon glyphicon-flag"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2018 Nuts &amp; Bolts</h6>
+				</div>
+				<div class="col-sm-4">
+					<h6>We offer genuine spares</h6>
+					<p>All our workshops use genuine OES/OEM parts. Quality is of utmost importance to us</p>
+				</div>
+				<div class="col-sm-2">
+					<h6>Navs</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Testimonials</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Book Now!</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<h6>Contact Us</h6>
+					<ul class="unstyled">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Google Plus</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by AS</h6>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	
+	<!-- Font Awesome JS -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+	<!-- JQuery JS- Online Version-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- Fallback hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="js/script.js"></script>
+
+</body>
+</html>
